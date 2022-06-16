@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "b8e3b6fe-7bc1-4183-9982-b67c5cf54e9d",
+		"name": "spring-boot-i18n",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET for fr",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "fr",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/v1/spring-boot-i18n/getMessageInAcceptHeaderLanguage",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"spring-boot-i18n",
+						"getMessageInAcceptHeaderLanguage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get for es",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "es",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/v1/spring-boot-i18n/getMessageInAcceptHeaderLanguage",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"spring-boot-i18n",
+						"getMessageInAcceptHeaderLanguage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get for de",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "de",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/v1/spring-boot-i18n/getMessageInAcceptHeaderLanguage",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"spring-boot-i18n",
+						"getMessageInAcceptHeaderLanguage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get for invalid language",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "kk",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/v1/spring-boot-i18n/getMessageInAcceptHeaderLanguage",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"spring-boot-i18n",
+						"getMessageInAcceptHeaderLanguage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Without Accept-Header",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/spring-boot-i18n/getMessageInAcceptHeaderLanguage",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"spring-boot-i18n",
+						"getMessageInAcceptHeaderLanguage"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
